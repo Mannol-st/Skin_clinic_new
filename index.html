@@ -3961,6 +3961,15 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 });
+const skinCarousel = document.querySelector('#skinResultCarousel');
+
+const carousel = new bootstrap.Carousel(skinCarousel, {
+    interval: 3500,
+    ride: 'carousel',
+    pause: 'hover',
+    touch: true,
+    wrap: true
+});
 
 
 </script>
